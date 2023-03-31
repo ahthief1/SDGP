@@ -41,6 +41,8 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
 
     private var bounds = Rect()
 
+    val detectedItems = mutableListOf<String>()
+
     val line1 = findViewById<TextView>(R.id.line1)
 
 
@@ -91,6 +93,8 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
                 result.categories[0].label + " " +
                         String.format("%.2f", result.categories[0].score)
 
+            detectedItems.add(result.categories[0].label)
+
 
             // Draw rect behind display text
             textBackgroundPaint.getTextBounds(drawableText, 0, drawableText.length, bounds)
@@ -107,11 +111,10 @@ class OverlayView(context: Context?, attrs: AttributeSet?) : View(context, attrs
             // Draw text for detected object
             canvas.drawText(drawableText, left, top + bounds.height(), textPaint)
 
-            if(result.categories[0].label=="airpods"){
-                line1.setText("Airpods")
-            }
 
         }
+
+        line1.text = detectedItems.joinToString(", ")
     }
 
     fun setResults(
