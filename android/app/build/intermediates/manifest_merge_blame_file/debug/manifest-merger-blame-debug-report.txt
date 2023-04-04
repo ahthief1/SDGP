@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="org.tensorflow.lite.examples.objectdetection"
+5    android:versionCode="1"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml
+11    <!-- Enable instant app support -->
+12    <dist:module dist:instant="true" /> <!-- Declare features -->
+12-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:7:5-40
+12-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:7:18-37
+13    <uses-feature android:name="android.hardware.camera" /> <!-- Declare permissions -->
+13-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:8:5-60
+13-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:8:19-57
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:9:5-65
+14-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:9:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18
+19    <application
+19-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:11:5-41:19
+20        android:allowBackup="true"
+20-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:12:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.6.0] /Users/abdulahthief/.gradle/caches/transforms-3/c6805e35222e8ed9e5fcb2d0220b387d/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@drawable/smartify"
+23-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:13:9-42
+24        android:label="Smartify"
+24-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:14:9-33
+25        android:roundIcon="@drawable/smartify"
+25-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:15:9-47
+26        android:taskAffinity=""
+26-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:16:9-32
+27        android:testOnly="true" >
+28        <activity
+28-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:18:9-40:20
+29            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
+29-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:19:13-41
+30            android:clearTaskOnLaunch="true"
+30-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:20:13-45
+31            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+31-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:21:13-91
+32            android:exported="true"
+32-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:22:13-36
+33            android:icon="@drawable/smartify"
+33-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:23:13-46
+34            android:resizeableActivity="true"
+34-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:24:13-46
+35            android:rotationAnimation="seamless"
+35-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:25:13-49
+36            android:theme="@style/AppTheme" >
+36-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:26:13-44
+37
+38            <!-- Main app intent filter -->
+39            <intent-filter>
+39-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:30:13-34:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:31:17-69
+40-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:31:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:33:17-77
+42-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:33:27-74
+43            </intent-filter>
+44
+45            <!-- Declare notch support -->
+46            <meta-data
+46-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:37:13-39:40
+47                android:name="android.notch_support"
+47-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:38:17-53
+48                android:value="true" />
+48-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:39:17-37
+49        </activity>
+50
+51        <uses-library
+51-->[androidx.window:window:1.0.0-alpha09] /Users/abdulahthief/.gradle/caches/transforms-3/2f316d4543385aac341da9392d2d1313/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:25:9-27:40
+52            android:name="androidx.window.extensions"
+52-->[androidx.window:window:1.0.0-alpha09] /Users/abdulahthief/.gradle/caches/transforms-3/2f316d4543385aac341da9392d2d1313/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:26:13-54
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0-alpha09] /Users/abdulahthief/.gradle/caches/transforms-3/2f316d4543385aac341da9392d2d1313/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:27:13-37
+54        <uses-library
+54-->[androidx.window:window:1.0.0-alpha09] /Users/abdulahthief/.gradle/caches/transforms-3/2f316d4543385aac341da9392d2d1313/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:28:9-30:40
+55            android:name="androidx.window.sidecar"
+55-->[androidx.window:window:1.0.0-alpha09] /Users/abdulahthief/.gradle/caches/transforms-3/2f316d4543385aac341da9392d2d1313/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:29:13-51
+56            android:required="false" />
+56-->[androidx.window:window:1.0.0-alpha09] /Users/abdulahthief/.gradle/caches/transforms-3/2f316d4543385aac341da9392d2d1313/transformed/jetified-window-1.0.0-alpha09/AndroidManifest.xml:30:13-37
+57
+58        <service
+58-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/abdulahthief/.gradle/caches/transforms-3/f91dafc7f8595c43dfc9681b72501395/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:26:9-35:19
+59            android:name="androidx.camera.core.impl.MetadataHolderService"
+59-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/abdulahthief/.gradle/caches/transforms-3/f91dafc7f8595c43dfc9681b72501395/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:27:13-75
+60            android:enabled="false"
+60-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/abdulahthief/.gradle/caches/transforms-3/f91dafc7f8595c43dfc9681b72501395/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:28:13-36
+61            android:exported="false" >
+61-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/abdulahthief/.gradle/caches/transforms-3/f91dafc7f8595c43dfc9681b72501395/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:29:13-37
+62            <meta-data
+62-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/abdulahthief/.gradle/caches/transforms-3/f91dafc7f8595c43dfc9681b72501395/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:32:13-34:89
+63                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+63-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/abdulahthief/.gradle/caches/transforms-3/f91dafc7f8595c43dfc9681b72501395/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:33:17-103
+64                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+64-->[androidx.camera:camera-camera2:1.1.0-beta03] /Users/abdulahthief/.gradle/caches/transforms-3/f91dafc7f8595c43dfc9681b72501395/transformed/jetified-camera-camera2-1.1.0-beta03/AndroidManifest.xml:34:17-86
+65        </service>
+66
+67        <provider
+67-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/abdulahthief/.gradle/caches/transforms-3/256dd3ccb0c0c910cef4d43dfcd5b89a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+68            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/abdulahthief/.gradle/caches/transforms-3/256dd3ccb0c0c910cef4d43dfcd5b89a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+69            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
+69-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/abdulahthief/.gradle/caches/transforms-3/256dd3ccb0c0c910cef4d43dfcd5b89a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+70            android:exported="false"
+70-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/abdulahthief/.gradle/caches/transforms-3/256dd3ccb0c0c910cef4d43dfcd5b89a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+71            android:multiprocess="true" />
+71-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/abdulahthief/.gradle/caches/transforms-3/256dd3ccb0c0c910cef4d43dfcd5b89a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+72    </application>
+73
+74</manifest>
