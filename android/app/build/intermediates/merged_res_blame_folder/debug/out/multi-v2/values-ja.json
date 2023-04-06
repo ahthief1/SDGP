@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
+            "outputFile": "/Users/abdulahthief/Desktop/smartify/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "/Users/abdulahthief/.gradle/caches/transforms-3/d6611a22cd6a64625047b531b6a3eaa6/transformed/appcompat-1.3.1/res/values-ja/values-ja.xml",

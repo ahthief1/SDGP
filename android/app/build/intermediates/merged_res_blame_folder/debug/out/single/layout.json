@@ -1,18 +1,14 @@
 [
     {
-        "merged": "/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/info_bottom_sheet.xml",
-        "source": "/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/res/layout/info_bottom_sheet.xml"
+        "merged": "/Users/abdulahthief/Desktop/smartify/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_camera.xml",
+        "source": "/Users/abdulahthief/Desktop/smartify/android/app/src/main/res/layout/fragment_camera.xml"
     },
     {
-        "merged": "/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_camera.xml",
-        "source": "/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/res/layout/fragment_camera.xml"
+        "merged": "/Users/abdulahthief/Desktop/smartify/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/abdulahthief/Desktop/smartify/android/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_bill.xml",
-        "source": "/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/res/layout/activity_bill.xml"
-    },
-    {
-        "merged": "/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/abdulahthief/Desktop/smartify/android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/info_bottom_sheet.xml",
+        "source": "/Users/abdulahthief/Desktop/smartify/android/app/src/main/res/layout/info_bottom_sheet.xml"
     }
 ]

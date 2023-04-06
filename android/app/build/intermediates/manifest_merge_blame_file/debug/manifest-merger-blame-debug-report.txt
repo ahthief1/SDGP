@@ -7,77 +7,77 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="21"
-9-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml
+9-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml
 10        android:targetSdkVersion="32" />
-10-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml
+10-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml
 11    <!-- Enable instant app support -->
 12    <dist:module dist:instant="true" /> <!-- Declare features -->
-12-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:7:5-40
-12-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:7:18-37
+12-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:7:5-40
+12-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:7:18-37
 13    <uses-feature android:name="android.hardware.camera" /> <!-- Declare permissions -->
-13-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:8:5-60
-13-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:8:19-57
+13-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:8:5-60
+13-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:8:19-57
 14    <uses-permission android:name="android.permission.CAMERA" />
-14-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:9:5-65
-14-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:9:22-62
+14-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:9:5-65
+14-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:9:22-62
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 18
 19    <application
-19-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:11:5-41:19
+19-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:11:5-41:19
 20        android:allowBackup="true"
-20-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:12:9-35
+20-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:12:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.6.0] /Users/abdulahthief/.gradle/caches/transforms-3/c6805e35222e8ed9e5fcb2d0220b387d/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@drawable/smartify"
-23-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:13:9-42
+23-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:13:9-42
 24        android:label="Smartify"
-24-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:14:9-33
+24-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:14:9-33
 25        android:roundIcon="@drawable/smartify"
-25-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:15:9-47
+25-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:15:9-47
 26        android:taskAffinity=""
-26-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:16:9-32
+26-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:16:9-32
 27        android:testOnly="true" >
 28        <activity
-28-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:18:9-40:20
+28-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:18:9-40:20
 29            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
-29-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:19:13-41
+29-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:19:13-41
 30            android:clearTaskOnLaunch="true"
-30-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:20:13-45
+30-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:20:13-45
 31            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
-31-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:21:13-91
+31-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:21:13-91
 32            android:exported="true"
-32-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:22:13-36
+32-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:22:13-36
 33            android:icon="@drawable/smartify"
-33-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:23:13-46
+33-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:23:13-46
 34            android:resizeableActivity="true"
-34-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:24:13-46
+34-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:24:13-46
 35            android:rotationAnimation="seamless"
-35-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:25:13-49
+35-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:25:13-49
 36            android:theme="@style/AppTheme" >
-36-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:26:13-44
+36-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:26:13-44
 37
 38            <!-- Main app intent filter -->
 39            <intent-filter>
-39-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:30:13-34:29
+39-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:30:13-34:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:31:17-69
-40-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:31:25-66
+40-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:31:17-69
+40-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:31:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:33:17-77
-42-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:33:27-74
+42-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:33:17-77
+42-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:33:27-74
 43            </intent-filter>
 44
 45            <!-- Declare notch support -->
 46            <meta-data
-46-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:37:13-39:40
+46-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:37:13-39:40
 47                android:name="android.notch_support"
-47-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:38:17-53
+47-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:38:17-53
 48                android:value="true" />
-48-->/Users/abdulahthief/Library/CloudStorage/OneDrive-Personal/Documents/examples-master-4/lite/examples/object_detection/android/app/src/main/AndroidManifest.xml:39:17-37
+48-->/Users/abdulahthief/Desktop/smartify/android/app/src/main/AndroidManifest.xml:39:17-37
 49        </activity>
 50
 51        <uses-library
